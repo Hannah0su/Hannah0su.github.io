@@ -243,7 +243,7 @@
       {% if author.KaKao %}
         <li>
           <a href="https://open.kakao.com/{{ author.KaKao }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-mobile" aria-hidden="true"></i><span class="label">KaKao</span>
+            <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">KaKao</span>
           </a>
         </li>
       {% endif %}

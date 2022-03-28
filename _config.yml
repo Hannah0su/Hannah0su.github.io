@@ -115,7 +115,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Hannah0su"
     - label: "KaKao"
-      icon: "fab fa-fw fa-mobile"
+      icon: "fas fa-link"
       url: "https://open.kakao.com/o/sRie3e8d"
 
 # Site Footer

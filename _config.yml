@@ -23,14 +23,14 @@ name                     : "하영수(Hannah0su)"
 description              : "배움을 기록합니다."
 url                      : "https://Hannah0su.github.io"
 baseurl                  : # the subpath of your site, e.g.
-repository               : "https://github.com/Hannah0su/Hannah0su.github.io"
+repository               : "Hannah0su/comments"
 teaser                   : # path of fallback teaser image, e.g.
 logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           :  "배움을 기록"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -41,8 +41,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-light" # "github-light" (default), "github-dark"
+    issue_term           : "pathname" # "pathname" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Hannah0su"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "assets/images/bio-photo.jpg"
   bio              : "**꾸준하게,성실하게**"
   location         : "Daegu, Republic of Korea"
   #email            :

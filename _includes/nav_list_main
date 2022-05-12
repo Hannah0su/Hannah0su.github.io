@@ -35,7 +35,8 @@
                 {% endfor %}
             </ul>
       </li>
-      <li>	
+      <li>
+        <a href="https://hits.sh/hannah0su.github.io/"><img alt="Hits" src="https://hits.sh/hannah0su.github.io.svg?view=today-total&style=plastic&label=visitors"/></a>
       </li>
   </ul>
 </nav>

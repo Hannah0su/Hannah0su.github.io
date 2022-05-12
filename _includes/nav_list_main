@@ -5,7 +5,7 @@
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
   <ul class="nav__items" id="category_tag_menu">
       <li>
-            :books: 쌓아온 기록 {{sum}} 개
+        📚 쌓아온 기록 {{sum}} 개
       </li>
       <li>
         <span class="nav__sub-title">Java</span>

@@ -1,7 +1,7 @@
 ---
 title: "[Java] 자바에서의 빠른 입출력"
 categories:
-  - Algorithm
+  - Java
 tags:
   - Java
   - TIL

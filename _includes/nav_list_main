@@ -5,7 +5,7 @@
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
   <ul class="nav__items" id="category_tag_menu">
       <li>
-        📚 쌓아온 기록 {{sum}} 개
+        📚 쌓아온 기록 {{sum}}  개
       </li>
       <li>
         <span class="nav__sub-title">Java</span>
@@ -21,7 +21,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Linux" %}
-                        <li><a href="/categories/Linux" class="">Linux (with C++) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Linux" class="">Linux ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

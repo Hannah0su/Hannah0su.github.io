@@ -30,7 +30,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Todo" %}
-                        <li><a href="/categories/unity-lesson-1" class="">Todo ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Todo" class="">Todo ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

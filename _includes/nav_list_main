@@ -36,7 +36,15 @@
             </ul>
       </li>
       <li>
-        <a href="https://hits.sh/hannah0su.github.io/"><img alt="Hits" src="https://hits.sh/hannah0su.github.io.svg?view=today-total&style=plastic&label=visitors"/></a>
+          <br>
+          <style>
+          .hits{
+              width: auto; height: auto;
+              max-width: 90px;
+              max-height: 15px;
+          }
+          </style>
+          <img class="hits" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fhannah0su.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitors&edge_flat=false"/>
       </li>
   </ul>
 </nav>

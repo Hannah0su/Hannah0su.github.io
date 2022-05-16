@@ -1,9 +1,9 @@
 ---
 title: "[JavaScript] 호출 스택과 이벤트 루프"
 categories:
-  - JS
+  - JavaScript
 tags:
-  - JS
+  - JavaScript
   - TIL
 
 toc: true
